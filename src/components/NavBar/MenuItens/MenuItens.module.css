@@ -1,0 +1,26 @@
+.menuItens {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: none;
+    background-color: transparent;
+    color: var(--branco);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        font-size: 1.25rem;
+    }
+}
+
+.menu:hover {
+    transform: scale(1.15);
+}

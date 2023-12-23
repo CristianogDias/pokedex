@@ -1,0 +1,11 @@
+:root {
+    --vermelho: #B31312;
+    --vermelho-alternativo: #822010;
+    --branco: #EEEEEE;
+    --creme: #e2e4e8;
+    --cinza-claro: #a2a297;
+    --cinza: #3f3d43;
+    --preto: #202020;
+    --fonte-principal: 'Lilita One', cursive;
+    --fundo-gradiente: linear-gradient(45deg, var(--cinza-claro), var(--branco));
+}

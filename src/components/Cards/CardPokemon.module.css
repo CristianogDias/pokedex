@@ -1,0 +1,39 @@
+.card {
+    width: 240px;
+    height: 320px;
+    border-radius: 1.5rem;
+    background-color: rgb(240, 240, 240);
+    border: 2px white solid;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 65, 87);
+    border-color: rgb(255, 65, 87);
+    .nomePokemon {
+        color: var(--branco);
+    };
+}
+
+.sprite:hover {
+    background-color: b(255, 239, 196);
+}
+
+
+
+.nomePokemon {
+    color: rgb(255, 65, 87);
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sprite {
+    height: 70%;
+    width: 100%;
+    background: none;
+    box-sizing: border-box;
+}
